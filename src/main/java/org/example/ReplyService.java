@@ -63,7 +63,7 @@ public class ReplyService {
         // thanks
         else if (theword.equals("thanks")) {
             if (type == ReplyType.FORMAL) {
-                return "You are welcome";
+                return "You are welcome.";
 
             } else if (type == ReplyType.FRIENDLY) {
                 return "Anytime! 🙌";
